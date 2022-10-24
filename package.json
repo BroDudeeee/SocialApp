@@ -1,5 +1,5 @@
 {
-  "name": "Instagram",
+  "name": "amazon-clone",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,14 +11,19 @@
   "dependencies": {
     "@heroicons/react": "^2.0.12",
     "autoprefixer": "^10.4.12",
+    "firebase": "^9.12.1",
     "next": "12.3.1",
+    "next-auth": "^4.14.0",
     "postcss": "^8.4.18",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-responsive-carousel": "^3.2.23",
     "tailwindcss": "^3.1.8"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
     "eslint": "8.25.0",
-    "eslint-config-next": "12.3.1"
+    "eslint-config-next": "12.3.1",
+    "tailwind-scrollbar": "^2.1.0-preview.0"
   }
 }
