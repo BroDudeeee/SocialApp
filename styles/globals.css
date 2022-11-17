@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .icon {
+    @apply h-12 p-2 cursor-pointer hover:bg-gray-200 rounded-full select-none;
+  }
+}
